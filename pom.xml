@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>imjohnmdaniel.tools</groupId>
   <artifactId>enhanced-sfdc-migration-tool</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>39.0.1-SNAPSHOT</version>
   <name>Enhanced SFDC Migration Tool</name>
-  <description>Add-on library to the Salesforce.com Force.com Migration Tool</description>
+  <description>Add-on library to the Salesforce.com Force.com Migration Tool that extracts the unit test code coverage execution to be exported as JUnit style tests.</description>
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
@@ -25,9 +25,9 @@
 	<dependency>
 	    <groupId>org.salesforce</groupId>
 	    <artifactId>ant-salesforce</artifactId>
-	    <version>35.0</version>
+	    <version>39.0</version>
 	    <scope>system</scope>
-	    <systemPath>${project.basedir}/lib/ant-salesforce-35.0.jar</systemPath>
+	    <systemPath>${project.basedir}/lib/ant-salesforce-39.0.jar</systemPath>
 	</dependency>
 	<dependency>
 		<groupId>org.apache.ant</groupId>
@@ -59,4 +59,7 @@
   	</plugins>
   </build>
   <url>https://github.com/ImJohnMDaniel/enhanced-sfdc-migration-tool</url>
+  <scm>
+   <url>https://github.com/ImJohnMDaniel/enhanced-sfdc-migration-tool</url>
+  </scm>
 </project>
